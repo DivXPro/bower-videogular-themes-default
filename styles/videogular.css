@@ -5,8 +5,8 @@
  */
 @font-face {
   font-family: 'videogular';
-  src: url("fonts/videogular.eot");
-  src: url("fonts/videogular.eot?#iefix") format("embedded-opentype"), url("fonts/videogular.woff") format("woff"), url("fonts/videogular.ttf") format("truetype"), url("fonts/videogular.svg#videogular") format("svg");
+  src: url("../fonts/videogular.eot");
+  src: url("../fonts/videogular.eot?#iefix") format("embedded-opentype"), url("../fonts/videogular.woff") format("woff"), url("../fonts/videogular.ttf") format("truetype"), url("../fonts/videogular.svg#videogular") format("svg");
   font-weight: normal;
   font-style: normal; }
 videogular, [videogular] {
@@ -108,7 +108,8 @@ videogular, [videogular] {
     max-height: 100%;
     position: absolute;
     z-index: 2;
-    top: 0; }
+    top: 0;
+    left: 0; }
   videogular vg-overlay-play .play:before, [videogular] vg-overlay-play .play:before {
     content: "\e000"; }
   videogular vg-overlay-play .overlayPlayContainer, [videogular] vg-overlay-play .overlayPlayContainer {
